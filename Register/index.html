@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        function Validate(){
+            var x=document.forms["register"]["fkey"].value;
+            var y=document.forms["register"]["vfkey"].value;
+            if(x!=y){
+                alert("Confirmed password and password are not matching!!!")
+                return false;
+            }
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
         <div class="Mainlabel">
-            <ul id="navigation">
-                <a href="../Login/index.html"><button>Login</button></a>
-                <a href="#signup" ><button class="active">Sign Up</button></a>
-            </ul>
-            <form style="padding-top: 15px;">
-                Register
-                
-            </form>
+            Register<br><br>
+            <div class="formLabel">
+                <form name="register" action="validation/valid.php" onsubmit="return Validate()" method="POST">
+                        Username<br>
+                        <input name="fname" type="text" placeholder="Username" required ><br>
+                        Password<br>
+                        <input name="fkey" type="password" placeholder="Password" required><br>
+                        <input name="vfkey" type="password" placeholder="Confirm Password" required>
+                    <button class="submit" type="submit">Register</button>
+                </form>
+                </div>
             <p class="content">
-                Already have an account?  <a href="../Login/index.html"><button id="sign">Login Here</button></a>
+                <br>Already have an account?<br>  <a href="../Login/index.html"><button id="sign">Login Here</button></a>
             </p>
         </div>
 </body>

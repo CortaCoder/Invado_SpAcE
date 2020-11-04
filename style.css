@@ -8,19 +8,23 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-left: 38%;
+    padding-left: 37.5%;
     padding-top: 250px;
 }
 .Mainlabel{
-    height: 300%;
+    height: 100%;
     background-color:rgba(82, 82, 226, 0.685);
-    width: 350px;
+    width: 35%;
     border-radius: 20px;
-    padding: 8px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
     color: white;
     font-size: 200%;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition-duration: 0.5s;
 }
 a button{
     float: left;
@@ -34,6 +38,7 @@ a button{
     font-weight: bold;
 }
 a button:hover{
+    transition-duration: 0.5s;
     background-color: rgba(23, 155, 243, 0.842);
     color: white;
 }
