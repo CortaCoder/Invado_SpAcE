@@ -1,0 +1,72 @@
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 11, 11);
+}
+body{
+    background-image: url(https://i1.wp.com/techbeasts.com/wp-content/uploads/2016/12/mountain-3d-wallpaper-8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 37.5%;
+    padding-top: 150px;
+}
+.Mainlabel{
+    height: 100%;
+    background-color:rgba(226, 216, 82, 0.685);
+    width: 35%;
+    border-radius: 20px;
+    color: rgb(124, 11, 11);
+    padding-top: 5%;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition-duration: 0.5s;
+}
+a #sign:hover{
+    color: rgb(200, 216, 245);
+    font-size: 110%;
+}
+#sign{
+    color: rgb(200, 216, 245) ;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: contents;
+}
+.submit{
+    color: white;
+    display: block;
+    border-radius: 60px;
+    overflow: hidden;
+    padding: 5%;
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 10%;
+    background-color: rgba(226, 213, 30, 0.685) ;
+    border: none;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.submit:hover{
+    background-color: rgb(124, 156, 7);
+}
+.formLabel{
+
+    overflow: hidden;
+    font-size: 60%;
+    width: 100%;
+    font-size:medium ;
+    display: center table-row ;
+}
+input{
+    background-color: rgba(138, 129, 6, 0.685);
+    border-radius: 20px;
+    width: 50%;
+    border:none;
+    padding: 3%;
+    margin: 30px;
+}
+img{
+    image-resolution: 10%;
+}
